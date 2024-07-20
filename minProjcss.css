@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFCD9E;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.headline {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.email-signup {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-signup input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    flex: 1;
+}
+
+.email-signup button {
+    padding: 11px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #333;
+    color: white;
+    margin-left: 30px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.small-text {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.illustration {
+    flex: 1;
+    text-align: center;
+}
+
+.illustration img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info {
+    margin-top: 20px;
+}
+
+.footer-info .social-icons a {
+    margin: 0 10px;
+}
+
+.footer-info .social-icons img {
+    width: 20px;
+    vertical-align: middle;
+}
