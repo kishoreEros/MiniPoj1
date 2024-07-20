@@ -23,6 +23,12 @@ body {
     margin-bottom: 20px;
 }
 
+.headlne {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 p {
     margin: 10px 0;
 }
@@ -37,7 +43,7 @@ p {
     padding: 10px;
     font-size: 1em;
     border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 5px 5px 5px;
     outline: none;
     flex: 1;
 }
@@ -49,7 +55,7 @@ p {
     background-color: #333;
     color: white;
     margin-left: 30px;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px 5px 5px 5px;
     cursor: pointer;
 }
 
@@ -75,7 +81,7 @@ footer {
 }
 
 footer ul {
-    list-style: none;
+    list-style: none;/* none*/
     padding: 0;
 }
 
@@ -100,4 +106,10 @@ footer ul li a {
 .footer-info .social-icons img {
     width: 20px;
     vertical-align: middle;
+}
+
+/*--------------------------------*/
+.foot_rw{ 
+    list-style-type: none;
+    vertical-align:left;
 }
